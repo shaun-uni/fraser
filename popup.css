@@ -1,0 +1,118 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333333;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff); /* Subtle background gradient */
+}
+
+.container {
+    padding: 20px;
+    width: 420px;
+    box-sizing: border-box;
+    background: #fff;
+    border: none; /* Removing border for a cleaner look */
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15); /* More pronounced shadow for a floating effect */
+    overflow: hidden; /* Ensures all inner elements are contained */
+    background: linear-gradient(145deg, #fafafa, #ffffff); /* Light gradient for the container */
+}
+
+header h1 {
+    font-family: 'Inria Serif', serif;
+    color: #1a73e8; /* Preserving title colors */
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    align-items: baseline; /* Ensuring proper alignment */
+}
+
+header h1 span {
+    color: black;
+    margin-left: 2px;
+}
+
+header .subtitle {
+    color: #5f6368;
+    font-size: 14px;
+    margin-top: 2px; /* Tight spacing for subtitle */
+}
+
+main p {
+    color: #666; /* Slightly darker text for better readability */
+    text-align: center; /* Centering all text in main for consistency */
+    margin-bottom: 10px; /* Uniform margin for spacing */
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc; /* More defined border for the textarea */
+    border-radius: 8px;
+    resize: none; /* Disabling resize for a cleaner look */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Subtle inset shadow for depth */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Increased bottom margin for visual separation */
+}
+
+.style-button, .action-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px; /* More padding for a larger, more touch-friendly button */
+    margin: 0 5px; /* Reduced side margin */
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for 3D effect */
+}
+
+.style-button:hover, .action-button:hover {
+    background-color: #1570c1; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+#resultText {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f3f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #202124;
+    min-height: 60px;
+    font-size: 14px;
+    overflow-y: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adding shadow to the result box */
+}
+
+#copyButton {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Cursor indicates clickable */
+    display: block; /* Makes the button a block element */
+    margin: 20px auto; /* Centers the button horizontally, increased vertical margin */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#copyButton:hover {
+    background-color: #43a047; /* Darker green when hovered */
+}

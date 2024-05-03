@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraser - Text Enhancement</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>F<span>raser</span></h1>
+            <p class="subtitle">Powered by Google Gemini</p>
+        </header>
+        <main>
+            <p>Please paste the text to be enhanced below:</p>
+            <textarea id="inputText" placeholder="Enter text here..."></textarea>
+            <p class="button-intro">Make your text</p>
+            <div class="button-container">
+                <button class="style-button" id="professional">Professional</button>
+                <button class="style-button" id="informal">Informal</button>
+                <button class="style-button" id="concise">Concise</button>
+            </div>
+            <div id="resultText"></div>
+            <button class="action-button" id="copyButton">Copy Text</button>
+        </main>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
